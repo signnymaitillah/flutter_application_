@@ -19,7 +19,7 @@ class Profil extends StatelessWidget {
             padding: const EdgeInsets.all(3),
             child: ClipOval(
               child: (Image.asset(
-                'images/nanay.jpg',
+                'image/nanay.jpg',
                 width: 150,
                 height: 150,
                 fit: BoxFit.cover,
