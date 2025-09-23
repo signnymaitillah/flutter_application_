@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/latihan.dart';
-
+import 'package:flutter_application_3/listPanjang.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,6 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: 'Aplikasi Flutter', home: LatihanGridview()));
+    return const MaterialApp(title: 'Aplikasi Flutter', home: LongList());
   }
 }
