@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(Latihan());
+  runApp(LatihanGridview());
 }
 
-  class Latihan extends StatelessWidget {
+class LatihanGridview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

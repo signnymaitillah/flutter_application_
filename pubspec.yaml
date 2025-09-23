@@ -18,6 +18,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-  - 'images/nanay.jpg'
+  - images/nanay.jpg
+  - images/gambar1.jpg
+  - images/gambar2.jpg
+  - images/gambar3.jpg
 
 
+  

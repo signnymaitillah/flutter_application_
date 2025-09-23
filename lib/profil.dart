@@ -19,7 +19,7 @@ class Profil extends StatelessWidget {
             padding: const EdgeInsets.all(3),
             child: ClipOval(
               child: (Image.asset(
-                'image/nanay.jpg',
+                'images/nanay.jpg',
                 width: 150,
                 height: 150,
                 fit: BoxFit.cover,
@@ -45,11 +45,37 @@ class Profil extends StatelessWidget {
           SizedBox(height: 20),
 
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: const [
-              Column(children: [Icon(Icons.call), Text('Call')]),
-              Column(children: [Icon(Icons.call), Text('Route')]),
-              Column(children: [Icon(Icons.call), Text('Share')]),
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton.icon(
+                onPressed: () {},
+                icon: const Icon(Icons.call),
+                label: const Text('Call'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blueAccent,
+                  foregroundColor: Colors.white,
+                ),
+              ),
+              const SizedBox(width: 10),
+              ElevatedButton.icon(
+                onPressed: () {},
+                icon: const Icon(Icons.route),
+                label: const Text('Route'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blueAccent,
+                  foregroundColor: Colors.white,
+                ),
+              ),
+              const SizedBox(width: 10),
+              ElevatedButton.icon(
+                onPressed: () {},
+                icon: const Icon(Icons.share),
+                label: const Text('Share'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blueAccent,
+                  foregroundColor: Colors.white,
+                ),
+              ),
             ],
           ),
         ],
