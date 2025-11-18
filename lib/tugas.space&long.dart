@@ -5,11 +5,6 @@ class TugasSpacelong extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholsder();
-  }
-
-  @override
-  Widget build(BuildContext context) {
     const int itemsCount = 4;
 
     return Scaffold(
